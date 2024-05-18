@@ -245,7 +245,7 @@ def printAllPlayerInfo():
     'Points': [25],
     'Ranking': [1]
     }
-    df = py.DataFrame(player_data)
+    df = py.DataFrame(player_data, index=[0])
     print(df)
     
     
