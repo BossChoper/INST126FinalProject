@@ -7,6 +7,7 @@ Follow directions within the program.
 AT THE MOMENT: 
 The program is keeping track of player info well but rerolls only include rolling one number at a time every reroll instead of rolling all numbers over again.
 Game does not end at 50 points. 
+- DOESN'T PRINT OUT A WINNER YET, JUST PRINTS ALL PLAYER SCORES
 
 CONTRIBUTIONS
 Martin Konteh (JUNIOR UMD InfoScience Student)
