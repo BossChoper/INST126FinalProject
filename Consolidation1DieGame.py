@@ -240,6 +240,7 @@ def printAllPlayerInfo():
         printPlayer = player_data[f"Player {player}"]
         print(f"{printPlayer} is the appropriate score for Player: {player}")
     
+    #Added a dataframe to display player scores
     data = {
     'Name': ['Player 1'],
     'Points': [25],
@@ -294,10 +295,12 @@ while turn != 5:
     #This is for the end of a turn.
     displayScore()
     turn += 1
-    if turn == 4:
+    if turn == 4 or max(player_data) == 50:
         endFiveTurns()
         print("The player that won is... ")
         printAllPlayerInfo()
+        winning_player = max(player_data, key=data.get)
+        print(winning_player)
         repeatGame = int(input("Do you want to play again? Enter 1 for yes, 2 for no: "))
         if repeatGame == 1:
             print("Okay, go again!")
