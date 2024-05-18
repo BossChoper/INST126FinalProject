@@ -1,0 +1,14 @@
+GOAL PLANS:
+This program is a die game where multiple players roll die and score points.
+First player makes the moves for their turn, then continues to another player.
+The player that reaches 50 points wins, or whoever has the most points after five turns of playing.
+Follow directions within the program.
+
+AT THE MOMENT: 
+The program is keeping track of player info well but rerolls only include rolling one number at a time every reroll instead of rolling all numbers over again.
+Game does not end at 50 points. 
+
+CONTRIBUTIONS
+Martin Konteh (JUNIOR UMD InfoScience Student)
+Emily Lee (pair programming partner)
+Momin Afzal (pair programming)
